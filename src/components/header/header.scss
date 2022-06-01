@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 15rem;
+    background-color: black;
+    justify-content:space-around;
+    color:rgb(19, 116, 228);
+    
+    & .menu{
+        display: flex;
+        justify-content: space-around;
+        width: 14rem;
+}
+}
+ul{
+      list-style-type: none;    
+}
+
+a{
+    color: white;
+    &:hover{
+        transition: 0.5s;
+          color:rgb(19, 116, 228);
+    }
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.logo{
+    font-size: 3rem;
+}
+

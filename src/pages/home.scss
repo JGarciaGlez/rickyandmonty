@@ -1,0 +1,22 @@
+.containerHome{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;    
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 80px;
+    padding-bottom: 5rem;
+    & .wrap{
+        margin-top: 1rem;
+        align-items: center;
+        & .name{
+            text-align: center;
+         }
+    } 
+    & img{
+
+        max-width: 200px;
+        height: auto;    
+}
+}
